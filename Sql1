@@ -1,0 +1,308 @@
+1(a). How do static and dynamic testing differ, and what are the advantages of each approach?
+
+(5-mark answer)
+
+Static testing involves examining the software without executing the code. It includes activities such as reviews, walkthroughs, and static code analysis. It focuses on finding errors early in design, requirements, or code structure.
+
+Dynamic testing, on the other hand, involves executing the code to verify its functional and non-functional behaviour. It checks how the software actually performs during runtime.
+
+Differences
+
+1.	Execution: Static testing does not require program execution; dynamic testing does.
+
+2.	Stage: Static testing is done early in the development cycle; dynamic testing occurs after code is compiled and executable.
+
+3.	Defects Found: Static testing identifies missing requirements, logic errors, and coding standards issues; dynamic testing finds runtime errors, performance issues, and functional defects.
+
+4.	Tools Used: Static uses analyzers, reviews; dynamic uses test cases, test scripts.
+
+Advantages
+
+Advantages of Static Testing:
+
+•	Detects defects early, reducing cost of fixing.
+
+•	Improves code quality and compliance with standards.
+
+•	Helps catch logical and structural issues before execution.
+
+Advantages of Dynamic Testing:
+
+•	Validates actual behaviour of the software.
+
+•	Ensures system meets functional requirements.
+
+•	Identifies runtime problems such as memory leaks, performance bottlenecks, and incorrect outputs.
+
+1(b). How does the classification of software testing help in determining which type of test to perform at various stages of development? (5-mark answer)
+
+Classification of software testing provides a structured way to choose the right type of test at the right time, ensuring complete coverage and efficient testing.
+
+How classification helps
+
+1.	By Development Stage:
+
+o	Unit testing is chosen during coding,
+
+o	Integration testing during module combination,
+
+o	System testing when the full system is ready,
+
+o	Acceptance testing before release.
+
+2.	By Test Objective:
+
+o	Functional testing ensures the system works as required,
+
+o	Non-functional testing (performance, security, usability) ensures quality attributes.
+
+3.	By Approach (White-box, Black-box, Grey-box):
+
+o	White-box tests internal logic at developer level,
+
+o	Black-box tests user-level behaviour,
+
+o	Grey-box tests integration and interfaces.
+
+4.	By Execution Method:
+
+o	Manual vs automated testing helps decide efficiency and repeatability—e.g., regression tests may be automated.
+
+5.	Better Resource Planning:
+
+Classification helps assign suitable testers, tools, and environments for each test type.
+
+3(a). What are the key components of project progress control? (7 marks)
+
+Project progress control ensures that a project stays on track with respect to scope, schedule, cost, and quality. The key components include:
+
+1.	Planning and Baseline Setting
+
+Establishing the project scope, schedule, budget, and quality standards. These serve as reference points for comparison.
+
+2.	Monitoring and Tracking Activities
+
+Regularly observing project tasks, deliverables, resource usage, and timelines to identify progress and deviations.
+
+3.	Performance Measurement
+
+Using techniques like Earned Value Analysis (EVA), KPIs, milestones, and status reports to measure actual performance against the baseline.
+
+4.	Risk and Issue Management
+
+Identifying potential risks early, analysing them, and implementing mitigation plans. Also involves recording and resolving project issues.
+
+5.	Change Control
+
+Evaluating requests for changes in requirements, design, budget, or timeline and updating the project plan accordingly.
+
+6.	Communication and Reporting
+
+Timely communication among stakeholders through meetings, dashboards, and progress reports to ensure transparency.
+
+7.	Corrective and Preventive Actions
+
+Implementing solutions to fix deviations and taking preventive measures to avoid future issues, ensuring continuous alignment with project goals.
+
+3(b). How can project progress control be effectively implemented in both internal projects and those involving external participants? (7 marks)
+
+Effective implementation requires structured processes, coordination, and clear responsibilities for all parties involved.
+
+1.	Clear Definition of Roles and Responsibilities
+
+Internal teams or external vendors must understand their tasks, deliverables, authority levels, and accountability.
+
+2.	Shared Project Plan and Baselines
+
+Both internal and external participants should work from a common schedule, budget, and scope documents to ensure alignment.
+
+3.	Transparent Communication Channels
+
+Use regular meetings, collaboration tools, and shared dashboards so everyone receives the same information in real time.
+
+4.	Formal Contract and SLA Management (for external projects)
+
+Contracts should define timelines, performance metrics, penalties, and deliverable quality standards to maintain control.
+
+5.	Consistent Monitoring and Review Cycles
+
+Weekly or monthly progress reviews, milestone checks, and status reports help track performance across all teams.
+
+6.	Risk and Issue Collaboration
+
+Risks must be shared between internal and external participants, with joint plans to mitigate and resolve them.
+
+7.	Escalation and Control Mechanisms
+
+A structured escalation path helps address delays, conflicts, or quality problems quickly, ensuring the project stays on track regardless of team boundaries
+
+3(c). How can the project progress control regime be adapted to account for changes in project scope or timeline? (7 marks)
+
+Adapting the control regime involves updating plans, adjusting monitoring methods, and ensuring stakeholder alignment.
+
+1.	Reassessing the Project Baseline
+
+When scope or timeline changes, the original schedule, cost, and resource baselines must be recalculated and approved.
+
+2.	Re-estimating Resources and Costs
+
+New requirements may need additional manpower, tools, or funding. Estimates must be updated to reflect the revised scope.
+
+3.	Updating the Work Breakdown Structure (WBS)
+
+Modify task lists, dependencies, and deliverables to ensure the project plan accurately reflects the new scope.
+
+4.	Revising Risk Management Plans
+
+Scope or timeline changes introduce new risks. The risk register and mitigation strategies should be updated accordingly.
+
+5.	Adjusting Monitoring and Performance Metrics
+
+KPIs, milestones, and EVA calculations must be recalibrated to match the revised schedule and deliverables.
+
+6.	Formal Change Control Procedure
+
+Every change should go through documentation, evaluation, approval, and communication steps to maintain consistency and prevent scope creep.
+
+7.	Stakeholder Communication and Alignment
+
+All affected stakeholders — internal teams, clients, external vendors — must be informed about changes to avoid misunderstandings and ensure coordinated execution.
+
+Below are clear, 7-mark exam-style answers for all parts of Question 6.
+
+ 
+
+6(a). How do IEEE software engineering standards ensure alignment between development teams, project managers, and quality assurance professionals? (7 marks)
+
+IEEE software engineering standards provide a common framework that helps all project stakeholders work in a coordinated and consistent manner. They ensure alignment through the following:
+
+1.	Clear Definition of Processes and Activities
+
+Standards outline structured life-cycle processes that guide developers, project managers (PMs), and QA teams in performing their responsibilities uniformly.
+
+2.	Standardized Terminology and Documentation
+
+By defining common terms and documentation formats, IEEE ensures that all teams interpret requirements and deliverables in the same way, reducing misunderstandings.
+
+3.	Defined Roles and Responsibilities
+
+IEEE standards specify who does what at each stage—developers focus on implementation, PMs on planning and tracking, and QA on reviews and audits—ensuring coordinated efforts.
+
+4.	Consistent Quality Criteria and Metrics
+
+QA teams rely on IEEE-defined quality models and measurement criteria, which developers and PMs also follow, ensuring quality expectations are uniform.
+
+5.	Structured Review and Approval Mechanisms
+
+Standards require formal reviews, inspections, and approvals at planned checkpoints, enabling synchronization across teams.
+
+6.	Traceability Requirements
+
+IEEE guides teams to maintain traceability between requirements, design, implementation, and tests. This ensures everyone remains aligned with goals and customer needs.
+
+7.	Support for Planning and Risk Management
+
+Project managers use IEEE guidelines for estimating, scheduling, and managing risks. Development and QA activities follow these plans, creating cohesion across roles.
+
+ 
+
+6(b). What are the key differences between verification and validation as defined in IEEE Std 1012? (7 marks)
+
+IEEE Std 1012 provides clear distinctions between verification and validation in software engineering.
+
+1.	Definition
+
+o	Verification: Confirms that the product is built correctly according to specifications, design, and requirements.
+
+o	Validation: Confirms that the product built is the right one for the user’s needs and intended use.
+
+2.	Primary Focus
+
+o	Verification focuses on internal correctness.
+
+o	Validation focuses on user expectations and operational effectiveness.
+
+3.	Activities Involved
+
+o	Verification uses reviews, inspections, walkthroughs, static and dynamic tests.
+
+o	Validation uses acceptance tests, field tests, prototypes, and user evaluations.
+
+4.	Performed By
+
+o	Verification is often carried out by developers and QA engineers.
+
+o	Validation involves end users, customers, or independent evaluators.
+
+5.	Stage of Performance
+
+o	Verification occurs throughout development at each life-cycle stage.
+
+o	Validation is typically performed at the end of the development cycle or during deployment.
+
+6.	Output and Evidence
+
+o	Verification provides proof that processes and deliverables meet technical requirements.
+
+o	Validation provides evidence that the final system meets operational and stakeholder needs.
+
+7.	Perspective
+
+o	Verification asks: “Did we build it right?”
+
+o	Validation asks: “Did we build the right thing?”
+
+ 
+
+6(c). What challenges might an organization face when applying IEEE/EIA Std 12207, and how can they be addressed? (7 marks)
+
+IEEE/EIA Std 12207 provides a complete framework for software life-cycle processes, but applying it can lead to several practical challenges:
+
+1.	Complexity and Comprehensive Scope
+
+The standard covers many processes that may overwhelm smaller organizations.
+
+Solution: Tailor the standard by selecting only processes relevant to the project size and maturity.
+
+2.	High Implementation Effort and Cost
+
+Implementing full compliance requires resources, training, and tools.
+
+Solution: Adopt phased implementation, starting with critical processes like requirements, configuration management, and QA.
+
+3.	Cultural Resistance
+
+Teams may resist the structured, document-heavy approach.
+
+Solution: Provide awareness training, involve team members in tailoring decisions, and show the benefits through early pilot projects.
+
+4.	Documentation Burden
+
+The standard can require extensive documentation.
+
+Solution: Introduce templates, automation tools, and lean documentation practices.
+
+5.	Need for Process Expertise
+
+Lack of experienced personnel may result in incorrect application.
+
+Solution: Hire or train process engineers, or seek external consulting support.
+
+6.	Integration with Existing Processes
+
+Organizations may already follow Agile or other methodologies.
+
+Solution: Map IEEE/EIA processes to existing workflows and adopt hybrid models.
+
+7.	Maintaining Consistency Across Projects
+
+Different project teams may apply the standard inconsistently.
+
+Solution: Establish a process governance group and conduct periodic audits and reviews.
+
+ 
+
+If you want, I can also provide short notes, diagrams, or 8-mark expanded versions.
+
+
+
